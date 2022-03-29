@@ -29,7 +29,7 @@ namespace oop_game
                 shield -= damage;
                 if (shield > 0)
                 {
-                    health -= shield;
+                    health += shield;
                     shield = 0;
                 }
 
@@ -39,6 +39,14 @@ namespace oop_game
         public void Heal()
         {
             health += 15;
+        }
+        public override string ToString()
+        {
+            string text = "Name: " + Name + "\n";
+            text += "Health: " + health + "\n";
+            text += "Shield: " + shield + "\n";
+            text += "Damage: " + damage + "\n";
+            return text;
         }
     }
 

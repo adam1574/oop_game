@@ -7,6 +7,12 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
+        <TextBox Name="Txt1" HorizontalAlignment="Left" Margin="54,48,0,0" Text="TextBox" TextWrapping="Wrap" VerticalAlignment="Top" Width="200" Height="310"/>
+        <TextBox Name="Txt2" HorizontalAlignment="Left" Margin="530,48,0,0" Text="TextBox" TextWrapping="Wrap" VerticalAlignment="Top" Width="200" Height="310"/>
+        <Button Content="Attact" HorizontalAlignment="Left" Margin="658,358,0,0" VerticalAlignment="Top" Height="42" Width="72"/>
+        <Button Content="Heal" HorizontalAlignment="Left" Margin="530,358,0,0" VerticalAlignment="Top" Height="42" Width="69" Click="Button_Click_1"/>
+        <Button Content="Heal" HorizontalAlignment="Left" Margin="182,358,0,0" VerticalAlignment="Top" Height="42" Width="72"/>
+        <Button Content="Attact" HorizontalAlignment="Left" Margin="54,358,0,0" VerticalAlignment="Top" Height="38" Width="69" Click="Button_Click"/>
 
     </Grid>
 </Window>
